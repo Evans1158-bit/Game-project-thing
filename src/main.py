@@ -4,11 +4,11 @@
 #
 # The brief is in PROJECT.md.
 
-from menu import menu
+from menu import show_the_menu
 
 def start_app():
     print('Start!')
-    menu()
+    show_the_menu()
     print('Goodbye!')
 
 
