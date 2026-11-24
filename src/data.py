@@ -13,7 +13,6 @@ def play():
         except (EOFError, KeyboardInterrupt):
             print()
             break
-
         if player in ("q", "quit"):
             break
         if player not in CHOICES:
